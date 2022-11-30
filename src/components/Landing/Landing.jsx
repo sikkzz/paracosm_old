@@ -21,8 +21,8 @@ const Landing = () => {
         <>
           <video
             className="landing_video"
-            // src={videos.LandingVideo}
-            src={videos.FaqVideo}
+            src={videos.LandingVideo}
+            // src={videos.FaqVideo}
             autoPlay
             muted
             loop
