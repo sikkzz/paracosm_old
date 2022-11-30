@@ -4,15 +4,15 @@
     height: 0;
     overflow: hidden;
     padding-bottom: 60%;
-    min-height: 690px;
-    min-width: 1130px;
+    // min-height: 690px;
+    // min-width: 800px;
 
     video {
         top: -20%;
         position: absolute;
         width: 100%;
         object-fit: cover;
-        min-width: 1130px;
+        // min-width: 1130px;
 
     }
 }
@@ -30,11 +30,11 @@
         opacity: 1;
     }
 
-    @media screen and (max-width: 1130px) {
-        width: 354px;
-        left: 236px;
-        top: 213px;
-    }
+    // @media screen and (max-width: 1130px) {
+    //     width: 354px;
+    //     left: 236px;
+    //     top: 213px;
+    // }
 }
 
 .landing_shadow_container {

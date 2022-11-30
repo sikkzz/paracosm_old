@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/phase" element={<PhasePage />} />
-        <Route exact path="/abcd_secret_1234" element={<MainPage />} />
+        <Route exact path="/test" element={<MainPage />} />
       </Routes>
     </>
   );
