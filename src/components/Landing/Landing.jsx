@@ -25,7 +25,7 @@ const Landing = () => {
             // src={videos.FaqVideo}
             autoPlay
             muted
-            loop
+            // loop
             type="video/mp4"
           />
 
