@@ -1,0 +1,276 @@
+.prolog_container {
+    min-width: 1080px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.prolog_background {
+    position: relative;
+    width: 102.4%;
+    left: -1.2%;
+}
+
+.prolog_background_shadow {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.32);
+    width: 100%;
+    height: 100%;
+}
+
+.bg_crypto {
+    position: absolute;
+    width: 12%;
+    left: 10%;
+    top: 9.5%;
+}
+
+.bg_bm {
+    position: absolute;
+    width: 6%;
+    left: 4.7%;
+    top: 27.5%;
+}
+
+.bg_alien {
+    position: absolute;
+    width: 16.4%;
+    left: 14.4%;
+    top: 47.5%;
+}
+
+.bg_love {
+    position: absolute;
+    width: 20.4%;
+    left: 75.3%;
+    top: 57.7%;
+}
+
+.bg_paracosm {
+    position: absolute;
+    width: 26%;
+    left: 37%;
+    top: 79.6%;
+}
+
+.bg_house {
+    position: absolute;
+    width: 25.5%;
+    left: 47%;
+    top: 52.6%;
+}
+
+.bg_rocket {
+    position: absolute;
+    width: 10.5%;
+    left: 76.5%;
+    top: 14.6%;
+}
+
+.bg_market {
+    position: absolute;
+    width: 8%;
+    left: 46%;
+    top: 79%;
+}
+
+.bg_tree {
+    position: absolute;
+    width: 20%;
+    left: 2%;
+    top: 69%;
+}
+
+.bg_light {
+    position: absolute;
+    width: 26.5%;
+    left: 71%;
+    top: 3.2%;
+}
+
+.bg_gmgmgm {
+    position: absolute;
+    width: 14.5%;
+    left: 71.7%;
+    top: 31%;
+}
+
+.bg_nft {
+    position: absolute;
+    width: 16.5%;
+    left: 79%;
+    top: 76%;
+}
+
+.prolog_title_image_container {
+    position: absolute;
+    top: 2%;
+    width: 44%;
+}
+
+.prolog_title_image {
+    width: 100%;
+    height: 100%;
+}
+
+.prolog_title_container {
+    position: absolute;
+    top: 13%;
+    width: 34%;
+}
+
+.prolog_title {
+    width: 100%;
+    height: 100%;
+}
+
+.prolog_content_container {
+    position: absolute;
+    top: 29.2vw;
+    width: 34vw;
+    height: 21vw;
+    background: rgba(0, 0, 0, 0.53);
+    border-radius: 12px;
+
+    @media screen and (max-width: 1080px) {
+        width: 360px;
+        height: 228px;
+        top: 320px;
+    }
+}
+
+.prolog_content_title {
+    text-align: center;
+    padding-top: 1.5vw;
+    font-family: "Beon";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    letter-spacing: -0.08em;
+    text-decoration-line: underline;
+    color: #88fa4e;
+
+    @media screen and (max-width: 1080px) {
+        padding-top: 15px;
+    }
+}
+
+.prolog_content_text_container {
+    padding-left: 2.3vw;
+    font-family: "Cartoonero";
+    font-style: normal;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    color: #f3f3f3;
+
+    @media screen and (max-width: 1080px) {
+        font-size: 10px;
+        padding-left: 25px;
+    }
+}
+
+.prolog_content_text_1 {
+    position: absolute;
+    top: 4vw;
+    top: 19%;
+
+    @media screen and (max-width: 1080px) {
+        line-height: 18px;
+    }
+}
+
+.text_bomber {
+    font-family: "Bomber Balloon";
+
+}
+
+.text_upsize {
+    font-size: 1.3vw;
+
+    @media screen and (max-width: 1080px) {
+        font-size: 15px;
+    }
+}
+
+.prolog_content_text_2 {
+    position: absolute;
+    top: 8.5vw;
+    top: 40.7%;
+    line-height: 1.3vw;
+
+    @media screen and (max-width: 1080px) {
+        line-height: 13px;
+    }
+}
+
+.prolog_content_text_3 {
+    position: absolute;
+    line-height: 1.3vw;
+    top: 15vw;
+    top: 71%;
+
+    @media screen and (max-width: 1080px) {
+        line-height: 15px;
+    }
+}
+
+.text_yellow {
+    color: #f4e34d;
+    font-size: 1.3vw;
+
+    @media screen and (max-width: 1080px) {
+        font-size: 15px;
+    }
+}
+
+.prolog_content_hover_container {
+    position: absolute;
+    width: 32.3%;
+    height: 6vw;
+    background: #fff;
+    top: 42%;
+    left: 57%;
+    background: rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+
+    @media screen and (max-width: 1080px) {
+        width: 340px;
+        height: 53px;
+    }
+}
+
+.prolog_content_line {
+    position: absolute;
+    width: 3.7vw;
+    left: -0.3vw;
+    top: 2.84vw;
+    height: 1px;
+    background: #f4e34d;
+    transform: rotate(90deg);
+
+    @media screen and (max-width: 1080px) {
+        width: 33px;
+        top: 25px;
+        left: -3px;
+    }
+}
+
+.prolog_content_text_4 {
+    position: absolute;
+    left: 8%;
+    top: 17%;
+    font-family: "Garamond Premier Pro";
+    font-size: 0.9vw;
+    line-height: 140%;
+    color: #f4e34d;
+
+    @media screen and (max-width: 1080px) {
+        font-family: "Garamond Premier Pro";
+        font-size: 5pt;
+        top: 10px;
+        left: 26px;
+        font-weight: 400;
+        line-height: 12px;
+    }
+}

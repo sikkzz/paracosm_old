@@ -1,0 +1,273 @@
+.collection {
+    background: #000;
+    min-width: 1080px;
+    height: 194vw;
+
+    &_container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        // video{
+        //     width: 40.742%;
+        //     left: 29.353%;
+        //     top: 111.92%;
+        //     position: absolute;
+        // }
+    }
+
+    &_main {
+        &_background {
+            width: 100%;
+            opacity: 0.63;
+            animation: flow 1s linear infinite;
+
+            @keyframes flow {
+                0% {
+                    /* transform: translateX(0); */
+                }
+
+                100% {
+                    transform: translateX(100%);
+                }
+            }
+        }
+
+        &_image {
+            position: absolute;
+            width: 24.3%;
+            top: 3.88%;
+        }
+
+        &_title {
+            position: absolute;
+            width: 40.838%;
+            top: 39.26%;
+        }
+    }
+
+    &_content {
+        &_box {
+            width: 37.04%;
+            height: 25.68%;
+            background: #000;
+            opacity: 0.73;
+            border-radius: 12px;
+            position: absolute;
+            top: 64.6%;
+            font-family: "Cartoonero";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.8vw;
+            line-height: 110%;
+            letter-spacing: -0.003em;
+            color: #fff;
+
+            @media screen and (max-width: 1080px) {
+                width: 400px;
+                height: 159px;
+                top: 404px;
+                font-size: 10px;
+                line-height: 11px;
+            }
+        }
+
+        &_title {
+            position: absolute;
+            height: 5.67%;
+            left: 10.5%;
+            top: 7.55%;
+            font-family: "Beon";
+            font-weight: 500;
+            font-size: 0.6vw;
+            line-height: 16%;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.01em;
+            text-decoration-line: underline;
+            color: #88fa4e;
+
+            @media screen and (max-width: 1080px) {
+                font-size: 8px;
+                line-height: 1px;
+            }
+        }
+
+        &1 {
+            position: absolute;
+            left: 10.25%;
+            top: 21.39%;
+        }
+
+        &2 {
+            position: absolute;
+            left: 10.25%;
+            top: 42.14%;
+
+            span {
+                color: #be97f2;
+
+            }
+        }
+
+        &3 {
+            position: absolute;
+            left: 10.25%;
+            top: 77.36%;
+        }
+    }
+
+    &_video {
+        width: 40.742%;
+        left: 29.353%;
+        top: 111.92%;
+        position: absolute;
+    }
+
+    &_frame {
+        width: 43.612%;
+        position: absolute;
+        left: 28.056%;
+        top: 110.628%;
+
+        &_title {
+            width: 52.223%;
+            position: absolute;
+            left: 1.39%;
+            top: 83.334%;
+        }
+
+        &_subtitle {
+            position: absolute;
+            width: 46.019%;
+            height: 17.767%;
+            left: 27.408%;
+            top: 186%;
+        }
+
+        &_box {
+            position: absolute;
+            width: 34.816%;
+            height: 16.798%;
+            left: 32.408%;
+            top: 156.978%;
+        }
+
+        &_content1 {
+            position: absolute;
+            width: 26.599%;
+            height: 8.66%;
+            font-family: "Beon";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8vw;
+            line-height: 16%;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.01em;
+            text-decoration-line: underline;
+            color: #88fa4e;
+
+            @media screen and (max-width: 1080px) {
+                font-size: 8px;
+                line-height: 1px;
+            }
+        }
+
+        &_content2 {
+            position: absolute;
+            width: 100%;
+            height: 84.8%;
+            top: 15.388%;
+            font-family: "Cartoonero";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.8vw;
+            line-height: 110%;
+            letter-spacing: -0.003em;
+
+            color: #ffffff;
+
+            @media screen and (max-width: 1080px) {
+                font-size: 10px;
+                line-height: 11px;
+            }
+        }
+    }
+
+    &_bottom {
+        &_background {
+            position: absolute;
+            width: 100%;
+            top: 218.78%;
+        }
+
+        &_image {
+            position: absolute;
+            width: 49.0742%;
+            left: 45.554%;
+            top: 217.51%;
+        }
+
+        &_subtitle {
+            position: absolute;
+            width: 85.8%;
+            left: 1.683%;
+            top: 78.65%;
+        }
+
+        &_content {
+            &_box {
+                position: absolute;
+                width: 49.538%;
+                height: 47.643%;
+                left: 48.06%;
+                top: 253.23%;
+                background: rgba(0, 0, 0, 0.53);
+                border-radius: 11px;
+            }
+
+            &_title {
+                position: absolute;
+                width: 14.394%;
+                height: 3.052%;
+                left: 2.996%;
+                top: 2.374%;
+                font-family: "Beon";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.8vw;
+                line-height: 16%;
+                display: flex;
+                align-items: center;
+                text-decoration-line: underline;
+                color: #88fa4e;
+
+                @media screen and (max-width: 1080px) {
+                    font-size: 8px;
+                    line-height: 1px;
+                }
+            }
+
+            &1 {
+                position: absolute;
+                width: 50.654%;
+                height: 78.31%;
+                left: 2.996%;
+                top: 7.46%;
+                font-family: "Cartoonero";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.8vw;
+                line-height: 144%;
+                letter-spacing: -0.003em;
+                color: #ffffff;
+
+                @media screen and (max-width: 1080px) {
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+}

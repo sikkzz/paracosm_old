@@ -1,0 +1,349 @@
+.faq {
+    background: #000;
+    min-width: 1080px;
+    height: 189.46vw;
+    position: relative;
+
+    &_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &_title {
+        position: absolute;
+        width: 28.77%;
+        left: 35.616%;
+    }
+
+    &_icon1 {
+        position: absolute;
+        width: 7.64%;
+        left: 19.76%;
+        top: 8.252%;
+
+        @media screen and (max-width: 1080px) {
+            width: 82.55px;
+            left: 213.92px;
+            top: 169px;
+        }
+    }
+
+    &_icon2 {
+        position: absolute;
+        width: 5.7%;
+        left: 38.9%;
+        top: 9.3%;
+
+        @media screen and (max-width: 1080px) {
+            width: 61.27px;
+            left: 420.73px;
+            top: 190.65px;
+        }
+    }
+
+    &_icon3 {
+        position: absolute;
+        width: 4.626%;
+        left: 57.54%;
+        top: 8.858%;
+
+        @media screen and (max-width: 1080px) {
+            width: 50px;
+            left: 622px;
+            top: 181.42px;
+        }
+    }
+
+    &_icon4 {
+        position: absolute;
+        width: 5.458%;
+        left: 74.3%;
+        top: 9.084%;
+
+        @media screen and (max-width: 1080px) {
+            width: 59px;
+            left: 803px;
+            top: 186px;
+        }
+    }
+
+    &_icon_text1 {
+        position: absolute;
+        width: 16.56%;
+        left: 19.427%;
+        top: 12.78%;
+
+        @media screen and (max-width: 1080px) {
+            width: 179px;
+            left: 210px;
+            top: 261.3px;
+        }
+    }
+
+    &_icon_text2 {
+        position: absolute;
+        width: 10.74%;
+        left: 37.38%;
+        top: 13.04%;
+
+        @media screen and (max-width: 1080px) {
+            width: 116px;
+            left: 404px;
+            top: 267.07px;
+        }
+    }
+
+    &_icon_text3 {
+        position: absolute;
+        width: 14.524%;
+        left: 55.79%;
+        top: 13.04%;
+
+        @media screen and (max-width: 1080px) {
+            width: 157px;
+            left: 603px;
+            top: 267.1px;
+        }
+    }
+
+    &_icon_text4 {
+        position: absolute;
+        width: 21.74%;
+        left: 73.54%;
+        top: 12.86%;
+
+        @media screen and (max-width: 1080px) {
+            width: 235.08px;
+            left: 794.92px;
+            top: 263.43px;
+        }
+    }
+
+    &_content {
+        font-family: "Cartoonero";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 10px;
+        text-align: center;
+        color: #fff;
+
+        &1 {
+            position: absolute;
+            width: 12.7%;
+            left: 17.21%;
+            top: 15.1%;
+
+            @media screen and (max-width: 1080px) {
+                left: 186px;
+                top: 309px;
+            }
+        }
+
+        &2 {
+            position: absolute;
+            width: 8.514%;
+            left: 37.56%;
+            top: 14.8%;
+
+            @media screen and (max-width: 1080px) {
+                left: 406px;
+                top: 303px;
+            }
+        }
+
+        &3 {
+            position: absolute;
+            width: 11.85%;
+            left: 53.94%;
+            top: 14.844%;
+
+            @media screen and (max-width: 1080px) {
+                left: 583px;
+                top: 304px;
+            }
+        }
+
+        &4 {
+            position: absolute;
+            width: 7.402%;
+            left: 73.36%;
+            top: 15.388%;
+
+            @media screen and (max-width: 1080px) {
+                left: 793px;
+                top: 315px;
+            }
+        }
+    }
+
+    &_video {
+        position: absolute;
+        width: 40.52%;
+        left: 29.42%;
+        top: 19.34%;
+
+        @media screen and (max-width: 1080px) {
+            width: 438px;
+            left: 318px;
+            top: 396px;
+        }
+    }
+
+    &_icon {
+        position: absolute;
+        width: 14.894%;
+        left: 26.18%;
+        top: 31%;
+
+        @media screen and (max-width: 1080px) {
+            width: 161px;
+            left: 283px;
+            top: 635px;
+        }
+
+        &_title {
+            position: absolute;
+            width: 15.56%;
+            left: 36.267%;
+            top: 33.692%;
+
+            @media screen and (max-width: 1080px) {
+                width: 168.29px;
+                left: 392px;
+                top: 690px;
+            }
+        }
+
+        &_content {
+            position: absolute;
+            width: 15%;
+            left: 32.57%;
+            top: 38.281%;
+            font-family: "Cartoonero";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1vw;
+            line-height: 90%;
+            color: #fae232;
+
+            @media screen and (max-width: 1080px) {
+                width: 161px;
+                left: 352px;
+                top: 784px;
+                font-size: 10px;
+                line-height: 9px;
+            }
+
+            &1 {
+                position: absolute;
+                top: 0.094vw;
+
+                @media screen and (max-width: 1080px) {
+                    top: 1px;
+                }
+            }
+
+            &2 {
+                position: absolute;
+                top: 2.6vw;
+
+                @media screen and (max-width: 1080px) {
+                    top: 28px;
+                }
+            }
+
+            &3 {
+                position: absolute;
+                top: 5.1vw;
+
+                @media screen and (max-width: 1080px) {
+                    top: 55px;
+                }
+            }
+
+            &4 {
+                position: absolute;
+                top: 7.6vw;
+
+                @media screen and (max-width: 1080px) {
+                    top: 82px;
+                }
+            }
+
+            &5 {
+                position: absolute;
+                top: 10vw;
+
+                @media screen and (max-width: 1080px) {
+                    top: 108px;
+                }
+            }
+
+            &6 {
+                position: absolute;
+                top: 12.5vw;
+
+                @media screen and (max-width: 1080px) {
+                    top: 135px;
+                }
+            }
+        }
+    }
+
+    &_social_icon {
+        &1 {
+            position: absolute;
+            width: 4.628%;
+            left: 40%;
+            top: 52%;
+
+            @media screen and (max-width: 1080px) {
+                width: 50px;
+                left: 432px;
+                top: 1066px;
+            }
+        }
+
+        &2 {
+            position: absolute;
+            width: 50px;
+            width: 4.628%;
+            left: 45.8%;
+            top: 52%;
+
+            @media screen and (max-width: 1080px) {
+                width: 50px;
+                left: 492px;
+                top: 1066px;
+            }
+        }
+
+        &3 {
+            position: absolute;
+            width: 4.128%;
+            left: 52%;
+            top: 1068px;
+            top: 52%;
+
+            @media screen and (max-width: 1080px) {
+                width: 44px;
+                left: 549px;
+                top: 1066px;
+            }
+        }
+
+        &4 {
+            position: absolute;
+            width: 4.628%;
+            left: 57.6%;
+            top: 52%;
+
+            @media screen and (max-width: 1080px) {
+                width: 50px;
+                left: 600px;
+                top: 1066px;
+            }
+        }
+    }
+}
