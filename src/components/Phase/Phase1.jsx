@@ -76,31 +76,121 @@ const Phase1 = () => {
             />
           </div>
           <div className="phase1_mobile_main_title">APPLY NOW HERE</div>
-          <div className="phase1_mobile_sub_title">
-            Follow the PARACOSM news:
+        </div>
+        <div className="phase1_mobile_header">
+          <div className="phase1_mobile_header_button">HOME</div>
+          <div className="phase1_mobile_header_button">CASTING LIST</div>
+        </div>
+        <div className="phase1_mobile_info_container">
+          <div className="phase1_mobile_info_title">VIP CONCIERGE SERVICE</div>
+          <div className="phase1_mobile_info_content">
+            CA$TING LIST is not for everyone.
+            <br />
+            In fact, it is limited to only 10% of total supply to ensure the
+            highest
+            <br />
+            caliber of personal service is provided to every member.
           </div>
-          <div className="phase1_mobile_social_container">
-            <div className="phase1_mobile_social_wrapper">
-              <div className="phase1_mobile_social_icon_container">
-                <img
-                  src={images.PhaseSocialIcon1}
-                  className="phase1_mobile_social_icon"
-                  alt="sociai_icon1"
-                />
-              </div>
-              <div className="phase1_mobile_social_icon_container">
-                <img
-                  src={images.PhaseSocialIcon2}
-                  className="phase1_mobile_social_icon"
-                  alt="sociai_icon1"
-                />
-              </div>
+          <div className="phase1_mobile_info_content">
+            Become a CA$TING LIST member today and enjoy our concierge
+            <br />
+            service ready to support VIP Preview.
+          </div>
+        </div>
+        <div className="phase1_mobile_cartoon_container">
+          <img
+            src={images.PhaseMobileCartoon}
+            className="phase1_mobile_cartoon_image"
+            alt="cartoon_image"
+          />
+        </div>
+        <div className="phase1_mobile_info_container">
+          <div className="phase1_mobile_info_title">
+            CA$TING LIST MEMBERS ENJOY THESE
+            <br />
+            EXCLUSIVE PRIVILEGES
+          </div>
+        </div>
+        <div className="phase1_mobile_info_list_container">
+          <div className="phase1_mobile_info_list">
+            <div className="phase1_mobile_info_list_icon" />
+            <div className="phase1_mobile_info_list_text">
+              Limited Membership
             </div>
           </div>
-          
+          <div className="phase1_mobile_info_list">
+            <div className="phase1_mobile_info_list_icon" />
+            <div className="phase1_mobile_info_list_text">
+              24-Hour Concierge Service
+            </div>
+          </div>
+          <div className="phase1_mobile_info_list">
+            <div className="phase1_mobile_info_list_icon" />
+            <div className="phase1_mobile_info_list_text">
+              VIP PREVEIW
+              <br />
+              <span>
+                CA$TING LIST Member can buy preview the collection before public
+                sale.
+              </span>
+            </div>
+          </div>
+          <div className="phase1_mobile_info_list">
+            <div className="phase1_mobile_info_list_icon" />
+            <div className="phase1_mobile_info_list_text">
+              Exclusive Rewards Program
+            </div>
+          </div>
+          <div className="phase1_mobile_info_list">
+            <div className="phase1_mobile_info_list_icon" />
+            <div className="phase1_mobile_info_list_text">
+              Luxury Gifts (No More Black Hoodie)
+            </div>
+          </div>
         </div>
-        <div className="phase1_mobile_footer_container">
-           ©PARACOSM 2022/2023
+        <div className="phase1_mobile_casting_image_container">
+          <div className="phase1_mobile_casting_image_title">CA$TING</div>
+          <img src={images.Phase1MainImg} alt="casting_image" />
+        </div>
+        <div className="phase1_mobile_apply_container">
+          <div className="phase1_mobile_apply_text">APPLY NOW</div>
+        </div>
+        <div className="phase1_mobile_apply_title_container">
+          APPLY HERE FOR THE PARACOSM CASTING LIST
+        </div>
+        <div className="phase1_mobile_casting_list_container">
+          <div className="phase1_mobile_casting_list_wrapper">
+            <div>CastingList</div>
+            <div>CastingList</div>
+          </div>
+          <div className="phase1_mobile_casting_list_wrapper">
+            <div>CastingList</div>
+            <div>CastingList</div>
+          </div>
+          <div className="phase1_mobile_casting_list_wrapper">
+            <div>CastingList</div>
+            <div>CastingList</div>
+          </div>
+        </div>
+
+        <div className="phase1_mobile_sub_title">Follow the PARACOSM news:</div>
+        <div className="phase1_mobile_social_container">
+          <div className="phase1_mobile_social_wrapper">
+            <div className="phase1_mobile_social_icon_container1">
+              <img
+                src={images.PhaseSocialIcon1}
+                className="phase1_mobile_social_icon"
+                alt="sociai_icon1"
+              />
+            </div>
+            <div className="phase1_mobile_social_icon_container2">
+              <img
+                src={images.PhaseSocialIcon2}
+                className="phase1_mobile_social_icon"
+                alt="sociai_icon1"
+              />
+            </div>
+          </div>
         </div>
       </div>
 

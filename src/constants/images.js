@@ -47,8 +47,8 @@ import Phase1CountBox from "../assets/phase1/phase1_countbox.png";
 import Phase1Icon from "../assets/phase1/phase1_icon.png";
 import PhaseMobileImg from "../assets/phase1/mobile_mainpng.png";
 import PhaseMobileCartoon from "../assets/phase1/mobile_cartoon.png";
-import PhaseSocialIcon1 from "../assets/imgs/icons/commision-17.png";
-import PhaseSocialIcon2 from "../assets/imgs/icons/commision-18.png";
+import PhaseSocialIcon1 from "../assets/phase1/social_twitter.png";
+import PhaseSocialIcon2 from "../assets/phase1/social_insta.png";
 
 const exportImages = {
   LandingHelmetImg,
