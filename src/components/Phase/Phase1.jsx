@@ -66,14 +66,44 @@ const Phase1 = () => {
 
   return (
     <>
-    <div className="phase1_mobile_container">
-      <div className="phase1_mobile_main_image_container">
-        <img src={images.PhaseMobileImg} className="phase1_mobile_main_image" alt="mobile_image" />
+      <div className="phase1_mobile_container">
+        <div className="phase1_mobile_wrapper">
+          <div className="phase1_mobile_main_image_container">
+            <img
+              src={images.PhaseMobileImg}
+              className="phase1_mobile_main_image"
+              alt="mobile_image"
+            />
+          </div>
+          <div className="phase1_mobile_main_title">APPLY NOW HERE</div>
+          <div className="phase1_mobile_sub_title">
+            Follow the PARACOSM news:
+          </div>
+          <div className="phase1_mobile_social_container">
+            <div className="phase1_mobile_social_wrapper">
+              <div className="phase1_mobile_social_icon_container">
+                <img
+                  src={images.PhaseSocialIcon1}
+                  className="phase1_mobile_social_icon"
+                  alt="sociai_icon1"
+                />
+              </div>
+              <div className="phase1_mobile_social_icon_container">
+                <img
+                  src={images.PhaseSocialIcon2}
+                  className="phase1_mobile_social_icon"
+                  alt="sociai_icon1"
+                />
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div className="phase1_mobile_footer_container">
+           ©PARACOSM 2022/2023
+        </div>
       </div>
-      <div className="phase1_mobile_main_title">
-        APPLY NOW HERE
-      </div>
-    </div>
+
       <div className="phase1_container">
         <div className="phase1_title_container">
           <div className="phase1_title_sub1">PHASE 1 : CASTINGCALL</div>
