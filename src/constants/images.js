@@ -45,6 +45,8 @@ import FaqSocialIcon4 from "../assets/imgs/icons/commision-20.png";
 import Phase1MainImg from '../assets/phase1/phase1_Main.png'
 import Phase1CountBox from '../assets/phase1/phase1_countbox.png'
 import Phase1Icon from '../assets/phase1/phase1_icon.png'
+import PhaseMobileImg from '../assets/phase1/mobile_mainpng.png'
+import PhaseMobileCartoon from '../assets/phase1/mobile_cartoon.png'
 
 
 
@@ -92,7 +94,9 @@ const exportImages = {
     FaqSocialIcon4,
     Phase1MainImg,
     Phase1CountBox,
-    Phase1Icon
+    Phase1Icon,
+    PhaseMobileImg,
+    PhaseMobileCartoon
 }
 
 export default exportImages
