@@ -49,6 +49,7 @@ import PhaseMobileImg from "../assets/phase1/mobile_mainpng.png";
 import PhaseMobileCartoon from "../assets/phase1/mobile_cartoon.png";
 import PhaseSocialIcon1 from "../assets/phase1/social_twitter.png";
 import PhaseSocialIcon2 from "../assets/phase1/social_insta.png";
+import PhaseCastingImg from "../assets/phase1/casting_img.png";
 
 const exportImages = {
   LandingHelmetImg,
@@ -99,6 +100,7 @@ const exportImages = {
   PhaseMobileCartoon,
   PhaseSocialIcon1,
   PhaseSocialIcon2,
+  PhaseCastingImg
 };
 
 export default exportImages;

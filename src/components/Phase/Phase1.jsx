@@ -77,10 +77,19 @@ const Phase1 = () => {
           </div>
           <div className="phase1_mobile_main_title">APPLY NOW HERE</div>
         </div>
+
         <div className="phase1_mobile_header">
           <div className="phase1_mobile_header_button">HOME</div>
-          <div className="phase1_mobile_header_button">CASTING LIST</div>
+          <div className="phase1_mobile_header_button"><img src={images.PhaseCastingImg} alt="casting_image" /></div>
         </div>
+
+        <div className="phase1_pc_header">
+          <div className="phase1_pc_header_button">
+            <div className="phase1_pc_header_title">HOME</div>
+            <img src={images.PhaseCastingImg} alt="casting_image" />
+          </div>
+        </div>
+
         <div className="phase1_mobile_info_container">
           <div className="phase1_mobile_info_title">VIP CONCIERGE SERVICE</div>
           <div className="phase1_mobile_info_content">
@@ -194,7 +203,7 @@ const Phase1 = () => {
         </div>
       </div>
 
-      <div className="phase1_container">
+      {/* <div className="phase1_container">
         <div className="phase1_title_container">
           <div className="phase1_title_sub1">PHASE 1 : CASTINGCALL</div>
           <div className="phase1_title_main">
@@ -329,7 +338,7 @@ const Phase1 = () => {
             FOLLOW FOR UPDATE
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
