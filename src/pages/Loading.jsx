@@ -1,10 +1,10 @@
 import React from "react";
-import Phase from "../components/Phase/Phase";
+import Loading from "../components/Phase/Loading";
 
 const PhasePage = () => {
   return (
     <>
-      <Phase />
+      <Loading />
     </>
   );
 };
