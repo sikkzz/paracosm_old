@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-BlkCn';
+    src: url('./assets/fonts/HelveticaNeueLTStd-BlkCn.otf');
+    
+}
+
+@font-face{
+    font-family: "Helvetica-Extended-Light";
+    src: url('./assets//fonts/HelveticaNeueLTStd-BdExO.otf');
+}
+
+@font-face{
+    font-family: 'Helvetica-Extended-Medium';
+    src: url('./assets/fonts/HelveticaNeueLTPro-Ex.otf');
+}

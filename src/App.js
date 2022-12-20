@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<LandingPage />} />
-        <Route exact path="/loading" element={<Loading />} />
+        <Route exact path="/" element={<Loading />} />
+        {/* <Route exact path="/loading" element={<Loading />} /> */}
         <Route exact path="/phase" element={<PhasePage />} />
         <Route exact path="/abcd_secret_1234" element={<MainPage />} />
       </Routes>

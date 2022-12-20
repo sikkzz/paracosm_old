@@ -1,5 +1,5 @@
 import React from "react";
-import Loading from "../components/Phase/Loading";
+import Loading from "../components/phase/Loading";
 
 const PhasePage = () => {
   return (

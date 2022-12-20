@@ -1,5 +1,5 @@
 import React from "react";
-import Phase from "../components/Phase/Phase";
+import Phase from "../components/phase/Phase";
 
 const PhasePage = () => {
   return (

@@ -42,7 +42,7 @@ import FaqSocialIcon2 from "../assets/imgs/icons/commision-18.png";
 import FaqSocialIcon3 from "../assets/imgs/icons/commision-19.png";
 import FaqSocialIcon4 from "../assets/imgs/icons/commision-20.png";
 
-import Phase1MainImg from "../assets/phase1/phase1_Main.png";
+import Phase1MainImg from "../assets/phase1/phase1_mains.png";
 import Phase1CountBox from "../assets/phase1/phase1_countbox.png";
 import Phase1Icon from "../assets/phase1/phase1_icon.png";
 import PhaseMobileImg from "../assets/phase1/mobile_mainpng.png";
@@ -50,6 +50,9 @@ import PhaseMobileCartoon from "../assets/phase1/mobile_cartoon.png";
 import PhaseSocialIcon1 from "../assets/phase1/social_twitter.png";
 import PhaseSocialIcon2 from "../assets/phase1/social_insta.png";
 import PhaseCastingImg from "../assets/phase1/casting_img.png";
+import PhaseFooterIcon from "../assets/phase1/footer_icon.png";
+import PhaseFooterArrow from "../assets/phase1/footer_arrow.png";
+import PhaseCursor from '../assets/cursor.png'
 
 const exportImages = {
   LandingHelmetImg,
@@ -100,7 +103,10 @@ const exportImages = {
   PhaseMobileCartoon,
   PhaseSocialIcon1,
   PhaseSocialIcon2,
-  PhaseCastingImg
+  PhaseCastingImg,
+  PhaseFooterIcon,
+  PhaseFooterArrow,
+  PhaseCursor
 };
 
 export default exportImages;

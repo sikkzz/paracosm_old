@@ -1,11 +1,15 @@
-html,body {
+html,
+body {
     height: 100%;
-  }
-#root{
+}
+
+
+#root {
     height: 100%;
 }
 
 .outer {
+    cursor: none;
     min-width: 320px;
     width: 100%;
     height: 100%;
@@ -13,18 +17,59 @@ html,body {
     display: flex;
 }
 
-.inner{
-    margin: auto;
+.inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     .icon {
-        width: 272px;
+        width: 448px;
+
+        @media screen and (max-width: 600px) {
+            width: 248px;
+        }
     }
-    .title{
-        margin-top: -10px;
-        font-weight: 400;
-        font-family: 'Helvetica Neue';
-        font-style: normal;
-        font-size: 25px;
-        text-align: center;
+
+    .title_container {
+        margin-top: 30px;
+        font-size: 30px;
+
+        // display: flex;
+        // align-items: center;
+        // width: 100px;
+        // height: 100%;
+        .cursor_container {
+            img {
+                width: 238px;
+            }
+        }
+
+        font-family: "Helvetica Extended Light";
+
+        @media screen and (min-width: 600px) {
+            display: none;
+        }
     }
 }
 
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.test {
+    width: 250px;
+    height: 30px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 25px;
+}
